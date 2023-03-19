@@ -12,6 +12,28 @@ git commit -m "test"
 
 git push
 
+3、关联仓库、创建远程分支
+
+git init
+
+git add .
+
+git commit -m "test"
+
+git remote add origin http://github
+
+git checkout -b dev
+
+git push origin dev
+
+4、删除git信息
+
+rm -rf .git
+
+
+
+
+
 # git lfs 使用
 
 1、安装
