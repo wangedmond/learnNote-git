@@ -61,7 +61,6 @@ int main(){
         cout <<"del2 "<< iter->first << " " << iter->second << endl;
     }
 
-
     // cout<<"test"<<endl;
     return 0;
 }
