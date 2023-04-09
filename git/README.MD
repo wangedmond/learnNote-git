@@ -12,8 +12,11 @@ git add .
 // 解除追踪删除<br/>
 git rm .
 
-// 撤销add操作
+// 撤销add操作<br>
 git reset HEAD test.cc
+
+// 撤销commit操作<br>
+git reset --soft HEAD~1
 
 git commit -m "test"
 
