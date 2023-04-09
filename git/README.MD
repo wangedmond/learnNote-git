@@ -6,11 +6,18 @@ yum install git
 
 2、使用
 
+// 添加追踪<br/>
 git add .
+
+// 解除追踪删除<br/>
+git rm .
+
+git reset HEAD test.cc
 
 git commit -m "test"
 
 git push
+
 
 3、关联仓库、创建远程分支
 
@@ -29,6 +36,9 @@ git push origin dev
 4、删除git信息
 
 rm -rf .git
+
+5、编辑git信息
+vim ~/.gitconfig 
 
 
 
