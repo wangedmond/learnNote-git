@@ -12,11 +12,13 @@ git add .
 // 解除追踪删除<br/>
 git rm .
 
+// 撤销add操作
 git reset HEAD test.cc
 
 git commit -m "test"
 
-git push
+//origin是远程仓库git remote，master是分支
+git push origin master
 
 
 3、关联仓库、创建远程分支
